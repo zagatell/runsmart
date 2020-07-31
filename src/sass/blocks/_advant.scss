@@ -1,0 +1,43 @@
+.advant {
+    min-height: 472px;
+    padding: 70px 0 78px 0;
+    &__title {
+        margin: 0;
+        text-align: center;
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        &__items {
+            max-width: 235px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        .subtitle {
+            text-align: center;
+            margin-top: 28px;
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .descr {
+            width: 235px;
+            margin-top: 25px;
+            text-align: center;
+            color: #0d0d0d;
+            font-size: 14px;
+            font-weight: 500;
+            span {
+                color: #ff0000;
+                text-decoration: underline;
+            }
+        }
+    }
+}
