@@ -1,3 +1,9 @@
+@media (max-width: 786px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
 @media (max-width: 768px) {
     .header {
         &__official {
@@ -24,6 +30,9 @@
             margin-top: 50px;
         }
     }
+    .title {
+        font-size: 25px;
+    }
 }
 @media (max-width: 576px) {
     .header {
@@ -41,21 +50,28 @@
     }
     .promo {
         &__header {
-            font-size: 26px;
+            font-size: 25px;
         }
         &__subheader {
-            font-size: 15px;
+            font-size: 14px;
         }
         &__icons {
             width: 320px;
         }
     }
     .advant {
-        &__title {
-            font-size: 25px;
-        }
         &__wrapper {
             justify-content: center;
+        }
+    }
+    .title {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .consultation {
+        &__descr {
+            font-size: 14px;
+            margin-top: 55px;
         }
     }
 }
